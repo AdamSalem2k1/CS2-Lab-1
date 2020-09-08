@@ -1,4 +1,5 @@
 #include"knapSack.h"
+#include"max.cpp"
 int knapSack(int W, int wt[], int val[], int n)
 {
 if (n == 0 || W == 0)
